@@ -18,6 +18,7 @@ The Stove Project provides a simple interface to interact with a virtual stove. 
 
 The project follows a basic structure:
 
+```
 project-root/
 │
 ├── src/ # Source code
@@ -43,6 +44,7 @@ project-root/
 ├── .gitignore # Git ignore file
 ├── package.json # Node.js project configuration
 └── README.md # Project documentation
+```
 
 ## Usage
 
