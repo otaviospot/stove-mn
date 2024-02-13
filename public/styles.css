@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  text-align: center;
+}
+
+h1 {
+  color: tomato;
+}
+
+#stoveControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1 1 auto;
+  border: none;
+}
+
+button:hover {
+  background-color: tomato;
+  color: white;
+}
+
+#showMessage {
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-family: monospace;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  background: rgb(242, 252, 255);
+  border: 1px solid rgb(200, 218, 223);
+  color: rgb(0, 200, 255);
+}
